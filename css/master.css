@@ -1,0 +1,408 @@
+header {
+    >div {
+
+
+        >.topside {
+            background-image: url(../src/img/a.jpg);
+            background-size: cover;
+
+            >span {
+                font-size: 22px;
+                color: aliceblue;
+                font-weight: bold;
+                transform: rotate(90deg);
+                cursor: pointer;
+            }
+
+            >figure {
+                margin: 0 auto;
+                padding: 15px;
+                height: 120px;
+                width: 200px;
+
+                >img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+        }
+
+        >.topbottom {
+            background-color: rgb(69, 21, 42);
+
+            box-shadow: inset 1px 1px 20px rgba(128, 128, 128, 0.673);
+
+            >ul {
+                height: 100%;
+
+                >li {
+                    list-style-type: none;
+
+                    >a {
+                        padding: 0 20px;
+                        color: aliceblue;
+                        text-decoration: none;
+                        display: flex;
+                        align-items: center;
+                        height: 100%;
+
+                    }
+                }
+            }
+        }
+
+
+
+    }
+}
+
+/*  */
+.slide {
+    background-image: url(../src/img/hero-background-full-scaled.jpg);
+    background-size: cover;
+    height: 690px;
+    overflow: hidden;
+    height: 100vh;
+
+    >.row {
+        text-align: center;
+
+        >.span {
+            word-spacing: 300px;
+        }
+
+        >span {
+            color: rgb(255, 255, 255);
+            text-transform: capitalize;
+            font-size: 69px;
+            font-weight: bold;
+
+            &:first-of-type {
+                font-size: 16px;
+            }
+
+            &:last-of-type {
+                font-size: 20px;
+                background-color: rgb(127, 15, 65);
+                padding: 5px;
+                transition: 0.4s;
+                height: 100%;
+                margin: 0 auto;
+
+                &:hover {
+                    background-color: rgb(234, 160, 24);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+}
+
+
+
+/*  */
+.top {
+    transform: translateY(-50px);
+}
+
+.fig {
+    background-image: url(../src/img/calltoaction-background.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    border-radius: 5px 5px 0 0;
+
+    * {
+        position: absolute;
+    }
+
+    >img {
+        height: 60%;
+
+        bottom: 0;
+        left: 40%;
+
+    }
+
+    >figcaption {
+        left: 40%;
+        font-weight: bold;
+        top: 40px;
+        font-size: 22px;
+        color: rgb(127, 15, 65);
+    }
+
+    >a {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(127, 15, 65);
+        color: aliceblue;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        font-size: 22px;
+    }
+
+}
+
+/*  */
+.man {
+    overflow-x: hidden;
+}
+
+.figure {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    padding: 5px;
+
+    * {
+        position: absolute;
+    }
+
+    >img {
+        height: 80%;
+        width: 100%;
+        left: 0;
+        top: 0px;
+        object-fit: cover;
+        position: 20px 20px;
+    }
+
+    >figcaption {
+        left: 0%;
+        bottom: 55px;
+        width: 100%;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    >span {
+        left: 0%;
+        bottom: 30px;
+        width: 100%;
+
+
+    }
+
+    >.sp {
+        left: 0%;
+        bottom: 0px;
+        width: 100%;
+        color: red;
+    }
+}
+
+/*  */
+section {
+    >div {
+        >.back {
+            background-image: url(../src/img/subscribe-background-scaled.jpg);
+            background-repeat: no-repeat;
+            background-position: left;
+            background-size: cover;
+
+            height: 100vh;
+            width: 100%;
+
+            >div {
+                >ul {
+                    margin: 200px auto;
+                    text-align: center;
+
+                    >li {
+                        >.t {
+                            color: rgb(69, 21, 42);
+                            font-size: 40px;
+                            text-transform: capitalize;
+
+                        }
+
+                        >span {}
+
+                        >input {
+                            outline: none;
+                            border-radius: 3px;
+                            width: 200px;
+                        }
+
+                        >button {
+                            background-color: rgb(127, 15, 65);
+                            transition: 0.4s;
+                            padding: 5px;
+                            outline: none;
+                            border: none;
+                            color: aliceblue;
+                            width: 150px;
+                            height: 40px;
+
+                            &:hover {
+                                background-color: rgba(247, 82, 22, 0.829);
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+div {
+    >.backbottom {
+        background-image: url(../src/img/vineyard-tours-background-scaled.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 490px;
+
+        >div {
+            >ul {
+                >li {
+                    >a {
+                        display: flex;
+                        background-color: rgba(70, 4, 67, 0.781);
+                        width: 240px;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                        margin: 0 auto;
+                        cursor: pointer;
+                        transition: 0.4s;
+                        padding: 2px;
+                        height: 40px;
+
+                        &:hover {
+                            background-color: rgba(224, 62, 3, 0.89);
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*  */
+.box {
+    >.row {
+        >.first {
+            margin: 100px auto;
+        }
+
+        >div {
+            >.second {
+                >div {
+                    >figure {
+                        height: 300px;
+                        width: 100%;
+
+                        >a {
+
+                            >img {
+                                object-fit: cover;
+                                height: 100%;
+
+                            }
+                        }
+                    }
+                }
+                
+            }
+            
+        }
+        
+    }
+}
+
+/*  */
+footer{
+    margin-top: 50px;
+    >div{
+        >div{
+            background-image:url(../src/img/a.jpg) ;
+            background-position:center;
+            background-repeat: no-repeat;
+            background-size: cover;
+          
+            width: 100%;
+            height: 100vh;
+            >div{
+                >figure{
+                    
+                }
+                >div{
+                    >ul{
+                        >li{
+                            list-style-type:none ;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+/*  */
+@media screen and (max-width:576px) {
+    header {
+
+        >div {
+            >.topside {
+                height: 150px;
+
+                >figure {
+                    margin: auto 0;
+                }
+            }
+
+            >.topbottom {
+                height: 100px;
+            }
+
+        }
+
+
+    }
+}
+
+@media screen and (min-width:577px) {
+    header {
+
+        >div {
+            >.topside {
+                height: 130px;
+            }
+
+            >.topbottom {
+                height: 40px;
+            }
+        }
+
+
+    }
+
+    .slide {
+        >div {
+            >.span {
+                word-spacing: 0px !important;
+
+            }
+        }
+    }
+}
